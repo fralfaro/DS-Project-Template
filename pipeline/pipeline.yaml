@@ -1,0 +1,10 @@
+tasks:
+   # source is the code you want to execute (.ipynb also supported)
+  - source: 1-get.py
+    # products are task's outputs
+    product:
+      # scripts generate executed notebooks as outputs
+      nb: output/1-get.html
+      # you can define as many outputs as you want
+      data: output/titanic_train.csv
+
